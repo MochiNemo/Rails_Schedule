@@ -16,7 +16,7 @@
       <%= yield %>
     </div>
     <footer>
-      <h2>現在の日時：<%= DateTime.now.to_s(:datetime_ja) %></h2>
+      <h2>現在の日時：<%= DateTime.now.to_s(:datetime_ja) %>　スケジュール合計：<%= @schedules.count %></h2>
     </footer>
   </body>
 </html>
